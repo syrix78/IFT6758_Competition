@@ -1,0 +1,4 @@
+# Config file for the project
+dataset_location: "/media/motoneurone/Datasets/kaggle/IFT6758_Data_science/ift6758-a20"
+CV: 0
+n_split: 10
