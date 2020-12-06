@@ -16,7 +16,7 @@ import seaborn as sns
 
 from sklearn.preprocessing import LabelEncoder
 
-df_train = pd.read_csv("train.csv")
+df_train = pd.read_csv("test.csv")
 df_train_copy = df_train.copy()
 
 df_train.info()
@@ -128,18 +128,25 @@ df_train["Avg Daily Profile Clicks"] = df_train["Avg Daily Profile Clicks"].roun
 
 df_train = df_train.fillna(df_train.median())
 
+"""**Normalizing continuous values using log10**"""
+
+continuous_columns = ["Num of Followers", "Num of People Following", "Num of Status Updates", "Num of Direct Messages", "Avg Daily Profile Visit Duration in seconds", "Avg Daily Profile Clicks"]
+
+for c in continuous_columns:
+  df_train[c] = np.log10(df_train[c] + 1)
+
 """**Convert Columns to appropriate type**"""
 
 df_train.astype({'Profile Cover Image Status': 'int64', 
                  'UTC Offset': 'int64',
                  'Location Public Visibility': 'int64',
-                 'Profile Creation WeekDay': 'int64',
-                 'Avg Daily Profile Visit Duration in seconds': 'int64',
-                 'Avg Daily Profile Clicks': 'int64'})
+                 'Profile Creation WeekDay': 'int64'
+                 
+                 })
 
 """**Saving Model to CSV and Pkl**"""
 
 df_train
 
-df_train.to_pickle("train_cleaned.pkl")
-df_train.to_csv("train_cleaned.csv")
+df_train.to_pickle("test_cleaned.pkl")
+df_train.to_csv("test_cleaned.csv")
