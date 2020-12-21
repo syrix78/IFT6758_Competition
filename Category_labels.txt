@@ -1,0 +1,9 @@
+Profile Cover Image Status: ['Not set' 'Set' 'unknown']
+Profile Verification Status: ['Not verified' 'Pending' 'Verified']
+Location Public Visibility: ['??' 'disabled' 'enabled']
+Is Profile View Size Customized?: [False  True]
+User Language: ['ar' 'ca' 'cs' 'da' 'de' 'el' 'en' 'en-gb' 'es' 'fi' 'fr' 'hu' 'id' 'it'
+ 'ja' 'ko' 'nl' 'pl' 'pt' 'ru' 'sk' 'sr' 'sv' 'th' 'tr' 'uk' 'zh-cn'
+ 'zh-tw']
+Profile Category: ['business' 'celebrity' 'government' 'unknown']
+Profile Creation WeekDay: ['Monday', 'Tuesday', 'Wenesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
