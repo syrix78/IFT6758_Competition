@@ -28,3 +28,13 @@ Feature Engineering is GOOD!
     2. Run all the cells in that section (Run the cells in order from top to bottom)
     3. You will see that a `predictions.csv` has been generated
     4. With `predictions.csv`, you should get the exact same predictions as in the `preds (11).csv` file we submitted on kaggle.
+
+## How to approximately regenerate the `submission_5.csv` submission
+
+1. Checkout the branch `submission_gradiant_boosting`.
+2. Follow the instructions in its README file.
+
+## How to approximately regenerate the `submission_8.csv` submission
+
+1. Checkout the branch `submission_neural_net`.
+2. Follow the instructions in its README file.
