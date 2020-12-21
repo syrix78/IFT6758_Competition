@@ -2,6 +2,10 @@
 
 Feature Engineering is GOOD!
 
+## Links to Colab notebooks
+* [data_cleaner.ipynb](https://drive.google.com/file/d/1gKCT40MCjgSa1LYEFach59ozHxF2J_T2/view?usp=sharing)
+* [predictor.ipynb](https://drive.google.com/file/d/1GpX4-Rqc_R0r3F_BK6DOwSmQi0v1o9nn/view?usp=sharing)
+
 ## How to regenerate the `preds (11).csv` submission (Using Colab)
 
 1. Delete `{train, test}_cleaned{.csv, .pkl}` files if they exist.
