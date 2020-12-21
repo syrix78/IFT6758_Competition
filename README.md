@@ -1,4 +1,4 @@
-# IFT6758_Competition
+# IFT6758_Competition: Another Team
 
 Feature Engineering is GOOD!
 
