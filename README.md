@@ -23,4 +23,4 @@ Let's have fun!
     1. Run all cells.
     2. To make predictions with the network that was just trained, in the 25th code cell load the weights from the hdf5 file with the lowest value after the "`--`" (it should be around `0.16`).
     3. Rerun the 2 last cells.
-    4. With `submission_material/Weights-049--0.16242.hdf5`, you should get the exact same predictions as in the `submission_8.csv` file.
+    4. With `submission_material/Weights-049--0.16242.hdf5` weights, you should get the exact same predictions as in the `submission_8.csv` file.
